@@ -1,0 +1,48 @@
+.site-navigation {
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__right,
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.6rem;
+  }
+}
+a {
+  margin-right: 5rem;
+  text-decoration: none;
+  color: $color-black;
+}
+
+.sign-in {
+  margin-right: 0;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__header {
+    font-size: 4rem;
+    color: $color-black;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+  &__paragraph {
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
+  }
+  &__left-input {
+    width: 32rem;
+    height: 4.5rem;
+  }
+  &__image {
+    max-width: 64rem;
+    height: 47rem;
+  }
+}
