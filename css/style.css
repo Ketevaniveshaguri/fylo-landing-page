@@ -228,6 +228,9 @@ a {
     @media only screen and (max-width: 50em) {
       .section-stay-productive__card {
         margin: 8rem auto; } }
+    @media only screen and (max-width: 31.25em) {
+      .section-stay-productive__card {
+        height: 24.5rem; } }
   .section-stay-productive__card-quotes {
     margin: 2rem 0 0 3.3rem; }
   .section-stay-productive__card-text {

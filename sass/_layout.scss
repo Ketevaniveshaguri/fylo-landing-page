@@ -253,6 +253,9 @@ a {
     @media only screen and (max-width: $bp-medium) {
       margin: 8rem auto;
     }
+    @media only screen and (max-width: $bp-smallest) {
+      height: 24.5rem;
+    }
   }
   &__card-quotes {
     margin: 2rem 0 0 3.3rem;
