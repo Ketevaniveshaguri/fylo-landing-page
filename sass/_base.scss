@@ -3,12 +3,14 @@ $color-black: #07043b;
 $color-purple: #575988;
 $color-purple-light: #f8f8fe;
 $color-blue: #2f65f8;
+$color-blue-light: #6c9bff;
+$color-blue-dark: #07043b;
 $color-grey-light: #c2c2c2;
 $color-green: #3da08f;
 
 $bp-largest: 75em; //1200
-$bp-large: 68.75em;
-$bp-medium: 56.25em;
+$bp-large: 65em;
+$bp-medium: 50em;
 $bp-small: 37.5em;
 $bp-smallest: 31.25em;
 
@@ -24,6 +26,10 @@ html {
   box-sizing: border-box;
   overflow-x: hidden;
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 55%;
+  }
 }
 
 body {
@@ -40,7 +46,7 @@ body {
 // }
 
 .container {
-  width: 85%;
-  max-width: 100%;
-  margin: auto;
+  // width: 85%;
+  // max-width: 100%;
+  margin: 0 auto;
 }
