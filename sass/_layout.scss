@@ -303,6 +303,10 @@ a {
       text-align: center;
       height: 35.5rem;
     }
+
+    @media only screen and (max-width: $bp-smallest) {
+      height: 40rem;
+    }
   }
 
   &__tytle {

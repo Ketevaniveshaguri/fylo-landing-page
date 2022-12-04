@@ -264,6 +264,9 @@ a {
       flex-direction: column;
       text-align: center;
       height: 35.5rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .early-access__content {
+      height: 40rem; } }
 
 .early-access__tytle {
   margin-left: 8rem;
