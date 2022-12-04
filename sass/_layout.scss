@@ -245,7 +245,7 @@ a {
 
   &__card {
     max-width: 35.6rem;
-    height: 22rem;
+    height: 23rem;
     margin-top: 8rem;
     margin-bottom: 10.7rem;
     background: $color-white;
@@ -281,7 +281,7 @@ a {
   }
   &__img {
     width: 54rem;
-    height: 40rem;
+    height: 41rem;
 
     @media only screen and (max-width: $bp-smallest) {
       width: 32rem;
@@ -351,6 +351,9 @@ a {
 
     @media only screen and (max-width: $bp-large) {
       margin-right: 3rem;
+    }
+    @media only screen and (max-width: $bp-smallest) {
+      margin-bottom: 6rem;
     }
   }
   &__input {

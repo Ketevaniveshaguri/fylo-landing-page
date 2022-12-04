@@ -221,7 +221,7 @@ a {
     color: #3da08f; }
   .section-stay-productive__card {
     max-width: 35.6rem;
-    height: 22rem;
+    height: 23rem;
     margin-top: 8rem;
     margin-bottom: 10.7rem;
     background: #fff; }
@@ -248,7 +248,7 @@ a {
     margin-left: 3.3rem; }
   .section-stay-productive__img {
     width: 54rem;
-    height: 40rem; }
+    height: 41rem; }
     @media only screen and (max-width: 31.25em) {
       .section-stay-productive__img {
         width: 32rem;
@@ -309,6 +309,9 @@ a {
   @media only screen and (max-width: 65em) {
     .early-access__input-container {
       margin-right: 3rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .early-access__input-container {
+      margin-bottom: 6rem; } }
 
 .early-access__input {
   width: 48rem;
