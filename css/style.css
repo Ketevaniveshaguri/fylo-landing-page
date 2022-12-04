@@ -34,6 +34,11 @@ body {
   @media only screen and (max-width: 65em) {
     .site-navigation {
       margin: 0 3rem 0 3rem; } }
+  .site-navigation__logo {
+    width: 16.6rem; }
+    @media only screen and (max-width: 37.5em) {
+      .site-navigation__logo {
+        width: 8rem; } }
   .site-navigation__right,
   .site-navigation ul {
     display: flex;
@@ -133,6 +138,10 @@ a {
         max-width: 44rem;
         height: 40rem;
         margin-right: -7rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .hero-section__image {
+        width: 30rem;
+        height: 22rem; } }
 
 .email-response {
   color: red;
@@ -212,7 +221,7 @@ a {
     color: #3da08f; }
   .section-stay-productive__card {
     max-width: 35.6rem;
-    height: 21rem;
+    height: 22rem;
     margin-top: 8rem;
     margin-bottom: 10.7rem;
     background: #fff; }
@@ -240,6 +249,10 @@ a {
   .section-stay-productive__img {
     width: 54rem;
     height: 40rem; }
+    @media only screen and (max-width: 31.25em) {
+      .section-stay-productive__img {
+        width: 32rem;
+        height: 24rem; } }
 
 .early-access__content {
   display: flex;
@@ -305,6 +318,9 @@ a {
     .early-access__input {
       width: 35rem;
       margin-left: 5rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .early-access__input {
+      margin: 0 auto; } }
 
 .early-access__button {
   font-family: "Raleway";
@@ -323,7 +339,10 @@ a {
   @media only screen and (max-width: 50em) {
     .early-access__button {
       width: 35rem;
-      margin-top: 0.8rem; } }
+      margin-top: 2rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .early-access__button {
+      margin: 2rem auto; } }
 
 .early-access__button:hover {
   background: #6c9bff; }
